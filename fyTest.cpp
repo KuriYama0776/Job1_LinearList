@@ -4,7 +4,12 @@ using namespace std;
 
 int f(int x)
 {
-    return x*x-1;
+    return x * x - 2;
+}
+
+int g(int x)
+{
+    return x * x * x - 3;
 }
 
 int main()
